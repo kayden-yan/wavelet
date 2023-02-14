@@ -21,10 +21,9 @@ class Handler implements URLHandler {
         }
         else if (url.getPath().equals("/empty")){
             display = "";
-            return "Cache cleaned";
+            return "Content emptied";
         }
         else {
-            
             return "404 Not Found";
         }
     }
